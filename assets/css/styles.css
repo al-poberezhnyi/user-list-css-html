@@ -9,4 +9,41 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  background-color: #f1f3fa;
+}
+
+.users-list {
+  width: 80%;
+  border: 2px solid silver;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.users-list > ul,
+li {
+  display: flex;
+}
+.users-list > ul {
+  flex-direction: column;
+}
+
+.user-item {
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgb(116, 195, 231);
+}
+
+.user-item img {
+  border: 2px solid rgb(136, 130, 130);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.btn-delete {
+  padding: 10px;
+  margin-left: auto;
 }
